@@ -1,7 +1,7 @@
 {
   "name": "fragrance",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the fragrance out of creating your first command line application.",
   "main": "index.js",
   "bin": {
