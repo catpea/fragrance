@@ -1,0 +1,29 @@
+ {
+  "name": "stink",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Get the stink out of creating your first command line application.",
+  "main": "index.js",
+  "bin": {
+    "stink": "./index.js"
+  },
+  "scripts": {
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
+    "test": "./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/stink.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catpea/stink/issues"
+  },
+  "homepage": "https://github.com/catpea/stink#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "lodash": "^4.17.21"
+  }
+}
